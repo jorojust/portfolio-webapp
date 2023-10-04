@@ -38,7 +38,7 @@
       <h1><a href="index.html">Justine Jude Jorolan</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm a passionate <span>IT Technical Specialist</span> from Sterling Heights</h2>
+      <h2>I'm a passionate <span>IT Professional</span> from Sterling Heights</h2>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -66,7 +66,9 @@
         <h2>Resume</h2>
         <p>Check My Resume</p>
       </div>
-
+      <a href="/assets/Downloads/Resume.pdf" download="Resume.pdf">
+        <i class="bx bx-download"></i> Download My Resume
+      </a>
       <div class="row">
         <div class="col-lg-6">
           <h3 class="resume-title">Sumary</h3>
@@ -161,29 +163,45 @@
 
       <div class="section-title">
         <h2>Cloud Sites</h2>
-        <p>These Azure Services Host My Portfolio</p>
+        <p>Azure Services - Portfolio Sites</p>
       </div>
+<div class="row">
+  <div class="section">
+  <div class="section">
+    <h3>About</h3>
+    <p>Welcome to My Cloud Portfolio, where I demonstrate my expertise in harnessing the power of Azure environments. This website was custom made by me utilizing a Bootstrap template. While not primarily a developer by profession, my extensive experience in automation, APIs, and low-code solutions empowered me to craft this website. </p> 
+    <h3>This Site</h3>
+    <p>This site is hosted on an Azure Container that utilizes one of my public GitHub repositories. Below, you'll find links to mirrors of this site, each hosted on a different Azure service. This showcase not only presents my content but also exemplifies my proficiency in navigating various Azure services to meet specific needs. I invite you to explore and discover the Azure versatility that drives my portfolio.</p>
+    <h3>Resources</h3>
+    <p>Below you can find the resources I utilized to create this portfolio website. It includes the free Template from Bootstrap, my custom files, and the steps I took to create some of my Azure Resources.</p>
+    <a href="https://github.com/jorojust/portfolio-webapp"><p>GitHub Repository</p></a>
+    <a href="path-to-your-file.zip" download="file-name.zip">
+      <i class="bx bx-download"></i> Download My Resources
+    </a>
+  </div>
+</div>
+</div>
 <div class="row">
 <!-- HTML for icon-boxes -->
 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
   <div class="icon-box" onclick="window.location.href = 'http://justinejorolan.eastus.cloudapp.azure.com/';" style="cursor: pointer;">
   <div class="icon-vm"><img src="assets/img/Cloud Sites/virtual-machines.svg" alt=""></div>
-    <h4>This Site - VM IIS Server</a></h4>
-    <p>This website is professionally hosted on an Azure Virtual Machine (VM) with a customized IIS (Internet Information Services) server configuration. This setup showcases my expertise in cloud infrastructure and scripting for optimal performance and reliability.</p>
+    <h4>VM IIS Server</a></h4>
+    <p>This website is professionally hosted on an Azure Virtual Machine (VM) with a customized IIS (Internet Information Services) server configuration.</p>
   </div>
 </div>
 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-  <div class="icon-box">
-    <div class="icon-web"><img src="assets/img/Cloud Sites/web-sites.svg" alt=""></div>
-    <h4><a href="#">Web App Site</a></h4>
-    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+  <div class="icon-box" onclick="window.location.href = 'https://justinejorolanportfolio2.azurewebsites.net/';" style="cursor: pointer;">
+  <div class="icon-web"><img src="assets/img/Cloud Sites/web-sites.svg" alt=""></div>
+    <h4><a href="#">This Site - Web App Site</a></h4>
+    <p>This version of the portfolio is hosted on an Azure Web App service, offering the same content with a different Azure twist. This Portfolio site is integrated with the use of a public GitHub repository I set up myself.</p>
   </div>
 </div>
  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
   <div class="icon-box">
     <div class="icon-web"><img src="assets/img/Cloud Sites/container-instance.svg" alt=""></div>
     <h4><a href="#">Container Site</a></h4>
-    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+    <p>This portfolio version is hosted on an Azure Container. The portfolio website is intricately linked with a publicly accessible GitHub repository, which I personally established and used as the source to create the Docker image for deployment, all managed through the Azure CLI.</p>
   </div>
 </div>
 </div>
@@ -198,17 +216,7 @@
         <h2>Portfolio</h2>
         <p>My Works</p>
       </div>
-
-      <!--<div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
-          </ul>
-        </div>
-      </div>-->
+>
 
       <div class="row portfolio-container">
 
@@ -274,7 +282,7 @@
           <div class="info-box">
             <i class="bx bx-map"></i>
             <h3>My Address</h3>
-            <p>Sterling Heighta, MI 48310</p>
+            <p>Sterling Heights, MI 48310</p>
           </div>
         </div>
 
@@ -304,28 +312,6 @@
         </div>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
 
     </div>
   </section><!-- End Contact Section -->l
